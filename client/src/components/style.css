@@ -174,10 +174,11 @@ body {
 }
 
 #socialbuttons {
-  width: 210px;
+  width: 100%;
+  padding: 10px 0;
   display: flex;
   justify-content: space-around;
-  margin-top: 20px;
+  align-items: center;
 }
 
 @keyframes spin {
@@ -197,10 +198,9 @@ body {
   animation: spin 1s linear infinite;
 }
 
-#view-ctr {
+#social-links {
   text-align: center;
   background-color: var(--med-bg);
-  padding: 20px;
   margin-top: 20px;
   width: 210px;
   border-radius: 5px;

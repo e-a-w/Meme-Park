@@ -21,16 +21,9 @@ const SideLinks = ({ meme }) => {
           Back
         </Button>
       </div>
-      <div id="view-ctr">
-        <img
-          src="https://www.webfreecounter.com/hit.php?id=gmufdfcn&nd=6&style=11"
-          border="0"
-          alt="visitor counter"
-        />{' '}
-        &nbsp; Views
-      </div>
+
       {meme && (
-        <div>
+        <div id="social-links">
           <div id="socialbuttons">
             <TwitterShareButton
               url={`https://memepark.herokuapp.com/meme/${meme.id}`}
@@ -45,7 +38,7 @@ const SideLinks = ({ meme }) => {
               <TumblrIcon size={32} round={true} />
             </TumblrShareButton>
             <FacebookShareButton
-              url={`https://memepark.herokuapp.com/meme/${meme.id}`}
+              url={`https://meme-park.herokuapp.com/meme/${meme.id}`}
               className="spin"
             >
               <FacebookIcon size={32} round={true} />
@@ -53,7 +46,6 @@ const SideLinks = ({ meme }) => {
           </div>
         </div>
       )}
-      <div></div>
     </div>
   );
 };
