@@ -212,10 +212,6 @@ body {
   transition: all 0.5s ease;
 }
 
-#view-ctr:hover {
-  font-style: italic;
-}
-
 #sidelinks {
   width: 210px;
   display: flex;
