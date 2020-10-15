@@ -33,19 +33,19 @@ const SideLinks = ({ meme }) => {
         <div>
           <div id="socialbuttons">
             <TwitterShareButton
-              url={`https://meme-park.herokuapp.com/meme/${meme.id}`}
+              url={`https://memepark.herokuapp.com/meme/${meme.id}`}
               className="spin"
             >
               <TwitterIcon size={32} round={true} />
             </TwitterShareButton>
             <TumblrShareButton
-              url={`https://meme-park.herokuapp.com/meme/${meme.id}`}
+              url={`https://memepark.herokuapp.com/meme/${meme.id}`}
               className="spin"
             >
               <TumblrIcon size={32} round={true} />
             </TumblrShareButton>
             <FacebookShareButton
-              url={`https://meme-park.herokuapp.com/meme/${meme.id}`}
+              url={`https://memepark.herokuapp.com/meme/${meme.id}`}
               className="spin"
             >
               <FacebookIcon size={32} round={true} />
